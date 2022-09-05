@@ -1,0 +1,154 @@
+/* DAY 1*/
+/* Author = Snehal Yadav */
+/* GitHub Id = https://github.com/snehay270 */
+/* Language = JAVA */
+  
+1) 
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello I am enjoying coding");
+    }
+}
+
+
+
+2)
+ //using /n
+   public class Main {
+       public static void main(String[] args) {
+        System.out.println(" Hello " +'\n'+ "I" +'\n'+ "am" +'\n'+ "enjoying" +'\n'+                                                   "coding");
+    }
+}
+          
+//using %n
+public class Main {
+    public static void main(String[] args) {
+        System.out.printf(" Hello%nI%nam%nenjoying%ncoding" );
+    }
+}  
+
+
+//using different line to print 
+public class Main {
+    public static void main(String[] args) {
+        System.out.println( "Hello" );
+         System.out.println( "I" );
+         System.out.println( "am" );
+         System.out.println( "enjoying" );
+         System.out.println( "coding" );
+    }
+}
+
+
+//3) Find the sum, product of 100,8,3
+public class Main {
+    public static void main(String[] args) {
+        
+        System.out.println("The sum is"+ (100+8+3) );
+        System.out.println("The Product is" +(100*8*3) );
+        
+}
+}
+
+
+//4) Find the difference between 100 and 40.
+public class Main {
+    public static void main(String[] args) {
+        
+        System.out.println("The Difference is"+ (100-40) );
+    }
+}
+
+
+5) Print the below pattern
+*****
+*****
+*****
+*****
+*****
+*****/
+public class Main {
+    public static void main(String[] args) {
+    
+        for (int i=1 ; i<=6 ;i++){
+        for (int j=1 ; j<=5 ;j++){
+               System.out.print("*");
+            }
+           System.out.println("\t"); 
+        }
+       
+        
+    }
+    
+}
+
+
+
+6) Print the below pattern
+* *
+* *
+* *
+* *
+* *
+*/
+public class Main {
+    public static void main(String[] args) {
+    
+        for (int i=1 ; i<=5 ;i++){
+        for (int j=1 ; j<=2 ;j++){
+               System.out.print("* ");
+            }
+         System.out.println("\t");
+        }
+    
+    }
+    
+}
+
+
+7) Find the last digit of the number 987653.
+
+*/
+public class Main {
+    public static void main(String[] args) {
+           int N =987653;
+     System.out.println(N%10);
+       
+    }
+    
+}
+
+
+8) Store values 15, 4 in m and n variable of int data type then
+Print value of m+n in the first line,
+Print value of m-n in the second line,
+Print value of m*n in the second line.
+
+*/
+public class Main {
+    public static void main(String[] args) {
+           int m , n;
+        Scanner sc = new Scanner(System.in);
+        m = sc.nextInt();
+         n = sc.nextInt();
+     System.out.println(m+n);
+        System.out.println(m-n);
+        System.out.println(m*n);
+       
+    }
+    
+}
+   //2 method
+public class Main {
+    public static void main(String[] args) {
+           int m =15 ;
+        int n=4;
+        
+     System.out.println(m+n);
+        System.out.println(m-n);
+        System.out.println(m*n);
+    }
+}
+
+
